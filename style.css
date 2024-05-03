@@ -1,0 +1,17 @@
+@import url("styles/header.css");
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --logo-cor: #3A404E;
+    --fonte: "Inter", sans-serif;
+    --azul: #101828;
+    --salmao: #fff2f2;
+    --cinza-claro: #e5eaf3;
+    --vermelho-claro: #fdf8f8;
+    --creditos: #98A2B3;
+    --fundo-pesquisa: #F9FAFB;
+    --borda-pesquisa: #d9dde6;
+}
+

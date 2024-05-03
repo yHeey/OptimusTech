@@ -1,0 +1,278 @@
+
+.cabecalho__main {
+    height: 100vh;
+    
+}
+
+.cabecalho__div {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    
+}
+
+.cabecalho__sobre {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vermelho);
+    font-family: var(--fonte);
+}
+
+.cabecalho__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--azul);
+    font-family: var(--fonte);
+    padding: 1em 0 1em 0;
+}
+
+.cabecalho__titulo-paragrafo {
+    padding: 0 18em 0 18em;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    font-family: var(--fonte);
+}
+
+.cabecalho__div__secundario {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    padding: 0em 6em 0em 6em;
+}
+
+.cabecalho__numero {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+    font-family: var(--fonte);
+}
+
+.cabecalho__subtitulo {
+    padding: 1em 0em 1em 0em;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul);
+    font-family: var(--fonte);
+}
+
+.cabecalho__paragrafo__especifico {
+    padding: 0em  0em 3em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    font-family: var(--fonte);
+    text-align: center;
+}
+
+.cabecalho__paragrafo {
+    padding: 0em 3em 0em 6em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    font-family: var(--fonte);
+    text-align: left;
+    
+}
+
+.cabecalho__main__2 {
+    height: 10vh;
+}
+
+.cabecalho__main__imagem {
+    display: block;
+    text-align: center;
+}
+
+.cabecalho__texto {
+    font-size: 14px;
+    font-weight: 500;
+    border: 10px solid var(--salmao);
+    border-radius: 24px;
+    background-color: var(--salmao);
+    color: var(--vermelho);
+    font-family: var(--fonte);
+
+}
+
+.cabecalho__principal {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--azul);
+    font-family: var(--fonte);
+    padding: 1em 0 1em 0;
+
+}
+
+.cabecalho__principal__paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+    font-family: var(--fonte);
+    padding-bottom: 2em;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 64px;
+}
+
+.titulo__area{
+    font-family: var(--fonte);
+    color: var(--azul);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 32px 0 0 0;
+    padding: 4em 0em 1em 0em;
+}
+
+.vagas__borda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    box-sizing: border-box;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 16px;
+    width: 768px;
+    height: 136px;
+    margin: 0 0 24px 0;
+}
+
+.titulo__profissao{
+    font-family: var(--fonte);
+    color: var(--azul);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.texto__vaga{
+    font-family: var(--fonte);
+    color: var(--cinza);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.texto__vaga > span {
+    padding-right: 24px;
+}
+
+.cabecalho__main__desenvolvedora {
+    height: 70vh;
+}
+
+.cabecalho__main__div {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--vermelho-claro);
+    border: 1px solid var(--vermelho-claro);
+    border-radius: 30px;
+    background: var(--vermelho-claro);
+    margin: 10em;
+    padding: 4em 0 4em 0;
+}
+
+.cabecalho__main__divisao {
+    border: 1px solid var(--vermelho-claro);
+    border-radius: 30px;
+    background: var(--vermelho-claro);
+}
+
+.cabecalho__main__subtitulo {
+    font-family: var(--fonte);
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.cabecalho__main__titulo {
+    font-family: var(--fonte);
+    color: var(--azul);
+    font-weight: 500;
+    font-size: 36px;
+    padding: 1em 6em 1em 6em;
+}
+
+
+.cabecalho__texto__secundario {
+    font-family: var(--fonte);
+    color: var(--azul);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1em 0 1em 0;
+}
+
+.cabecalho__subtitulo__secundario {
+    font-family: var(--fonte);
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pesquisa {
+    height: 30vh;
+    margin-bottom: 5em;
+    text-align: center;
+    background-color: var(--fundo-pesquisa);
+}
+
+.pesquisa__titulo {
+    font-family: var(--fonte);
+    color: var(--azul);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.pesquisa__botao {
+    margin-left: 1.5em;
+    font-family: var(--fonte);
+    background: var(--vermelho);
+    border-radius: 10px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.pesquisa__paragrafo {
+    font-family: var(--fonte);
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2em 0 2em 0;
+}
+
+.pesquisa__barra {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte);
+    width: 25%;
+    padding: 0.8em;
+    border-radius: 10px;
+    border: 2px solid var(--borda-pesquisa);
+    outline: none;
+}
+
+.pesquisa__creditos {
+    font-family: var(--fonte);
+    color: var(--creditos);
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 2em;
+}
+
